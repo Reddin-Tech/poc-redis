@@ -12,9 +12,9 @@ const redisCluster = new Cluster(
     },
   ],
   {
-    redisOptions: {
-      tls: {},
-    },
+    // redisOptions: {
+    //   tls: {},
+    // },
   }
 );
 
