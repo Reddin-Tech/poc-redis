@@ -11,9 +11,9 @@ const redisCluster = new ioredis_1.Cluster([
         port: 6379,
     },
 ], {
-    redisOptions: {
-        tls: {},
-    },
+// redisOptions: {
+//   tls: {},
+// },
 });
 redisCluster.on("connect", () => {
     console.log("Conectado ao Redis Cluster com sucesso!");
